@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color:#4BA9FF;
+    cursor: pointer;
+    color: white;
+}
+header{
+    margin-top: 23px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.head_first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.sayl_section{
+    display: flex;
+    align-items: center;
+}
+.sayl{
+    width: 40px;
+    height: 25px;
+}
+.man{
+    width: 55px;
+    height: 40px;
+    background: white;
+    border-color: #4BA9FF;
+}
+.btn_section{
+    display: flex;
+}
+nav a{
+    font-size: 18px;
+}
+.search_section{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.search{
+    width: 600px;
+    height: 49px;
+    border: #43424280 solid 1px;
+}
+.search_part button{
+    width: 154px;
+    height: 50px;
+    background-color: #4BA9FF;
+    color: white;
+}
+
+.dannie{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.moi{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.moi_one{
+    display: flex;
+    flex-direction: column;
+}
+.moi_two{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+}
+footer{
+    background-color: #F5F5F5;
+}
+.log{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.verjna li{
+    list-style: none;
+    font-size: 18px;
+}
+.log li{
+    list-style: none;
+    font-size: 18px;
+    color: #434242;
+}
+section{
+    margin-bottom: 197px;
+}

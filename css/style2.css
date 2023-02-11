@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color:#4BA9FF;
+    cursor: pointer;
+    color: white;
+}
+header{
+    margin-top: 23px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.head_first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.part_btn_section{
+    text-decoration: none;
+    border: 1px solid black;
+    width: 49px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part_btn_section i{
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.sayl_section{
+    display: flex;
+    align-items: center;
+}
+.sayl{
+    width: 40px;
+    height: 25px;
+}
+.man{
+    width: 60px;
+    height: 40px;
+    background: white;
+    border-color: #4BA9FF;
+}
+
+.btn_section{
+    display: flex;
+}
+nav a{
+    font-size: 18px;
+}
+.search_section{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.search{
+    width: 600px;
+    height: 49px;
+    border: #43424280 solid 1px;
+}
+.search_part button{
+    width: 154px;
+    height: 50px;
+    background-color: #4BA9FF;
+    color: white;
+}
+.form_add_page{
+    text-align: center;
+    margin-top: 100px;
+}
+.form_add_page input{
+    width: 265px;
+    height: 64px;
+    margin: 30px;
+}
+.form_add_page button{
+    background-color: #4BA9FF;
+    color: white;
+    width: 265px;
+    height: 64px;
+    font-size: 20px;
+}
+.input_colume input{
+    padding-left: 26px;
+    font-size: 25px;
+}
+
+
+
+.error{
+    font-size: 32px;
+    color: red;
+    margin-right: 27vw;
+    display: none;
+}

@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans:ital,wght@1,500&family=Roboto+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color:#4BA9FF;
+    cursor: pointer;
+    color: white;
+}
+header{
+    margin-top: 23px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.head_first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.part_btn_section{
+    text-decoration: none;
+    border: 1px solid black;
+    width: 49px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part_btn_section i{
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.sayl_section{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.sayl{
+    width: 40px;
+    height: 25px;
+}
+.man{
+    width: 60px;
+    height: 40px;
+    background: white;
+    border-color: #4BA9FF;
+}
+
+.btn_section{
+    display: flex;
+}
+nav a{
+    font-size: 18px;
+}
+.search_section{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.search{
+    width: 600px;
+    height: 49px;
+    border: #43424280 solid 1px;
+}
+.search_part button{
+    width: 154px;
+    height: 50px;
+    background-color: #4BA9FF;
+    color: white;
+}
+.zapchasti{
+    display: flex;
+}
+
+.inform_text{
+     font-size: 80px;
+     font-weight: 700;
+}
+.inform span{
+    color: #4BA9FF;
+}
+#ddlProducts{
+    height: 55px;
+}
+.katalog{
+    width: 470px;
+    height: 100px;
+    background: linear-gradient(#FF5454,#CD4848);
+    color: white;
+    border: none;
+}
+.katalog p{
+    font-size: 24px;
+}
+.fifty{
+    font-size: 24px;
+    font-weight: 300;
+}
+.katalog_part{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+section{
+    margin-top: 23px;
+}
+.zap_btn{
+    display: flex;
+    flex-direction: column;
+}
+.zap{
+    display: flex;
+}
+.txt{
+    font-size: 80px;
+    font-weight: 700;
+}
+.txt b{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4BA9FF;
+}
+.katalog{
+    width: 470px;
+    height: 100px;
+    background: linear-gradient(#FF5454,#CD4848 ) ;
+}
+.katalog p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.btn_fifty{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.fifty{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.image{
+    width: 321px;
+    height: 438px;
+}
+
+.next{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+.next:hover{
+    background-color: #4BA9FF;
+}
+.prev{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+.prev:hover{
+    background-color: #4BA9FF;
+}
+.tver{
+    font-size: 20px;
+    margin-top: 500px;
+}
+.btn_parts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.butonner{
+    width: 430px;
+    height: 121px;
+    background-color: #4BA9FF;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.butonner p{
+    font-size: 30px;
+}
+.company_part{
+    display: flex;
+}
+.text_company{
+    display: flex;
+    flex-direction: column;
+}
+.text_company h1{
+    font-size: 80px;
+}
+.text_company p{
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+.dalshe{
+    width: 470px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.dalshe:hover{
+    background-color: #4BA9FF;
+}
+.picture_part_company{
+    height: 525px;
+    width: 639px;
+}
+.syunak{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
+}
+.syunak li{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+}
+.catalog{
+    margin-top: 90px;
+    margin-bottom: 2vw;
+}
+.catalog h2{
+    font-size: 64px;
+    font-weight: 700;
+}
+.yndanur_mas{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px
+}
+.tiper{
+    display: flex;
+    padding: 66px  40px;
+    box-shadow: black 0 0 30px;
+    flex-direction: column;
+    gap: 22px;
+    width: 402px;
+    height: 500px;
+}
+.yntrovi_maser{
+    width: 265px;
+    height: 50px;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.yntrovi_maser p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.tiper button{
+    width: 265px;
+    height: 64px;
+    background-color: #4BA9FF;
+    color: white;
+}
+.tiper h2{
+    font-size: 35px;
+}
+.parighkeq_liqy{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.parighkeq_liqy1{
+    display: flex;
+    gap: 20px;
+}
+.lot{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 43px 21px;
+    gap: 10px;
+}
+.lot h2{
+    font-size: 36px;
+}
+.lot p{
+    font-size: 18px;
+}
+.gumar_hanum{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.kap{
+    background-color: #4BA9FF;
+    color: white;
+    width: 75px;
+    height: 25px;
+}
+.kap_one{
+    background: white;
+    width: 75px;
+    height: 25px;
+}
+.tverner{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 21vw;
+    margin-top: 2vw;
+    gap: 10px;
+    color: black;
+    font-weight: 600;
+}
+footer{
+    background-color: #F5F5F5;
+}
+.log{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.verjna li{
+    list-style: none;
+    font-size: 18px;
+}
+.log li{
+    list-style: none;
+    font-size: 18px;
+    color: #434242;
+}
